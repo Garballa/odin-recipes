@@ -13,7 +13,7 @@ h3 {
 div {
   text-align: center;
 }
-.header {
+.horizontal {
   display: block;
   height: 1px;
   border: 0;
@@ -30,6 +30,7 @@ div {
   margin-left: auto;
   margin-right: auto;
   border: solid 3px;
+  border-radius: 50%;
 }
 
 a {
@@ -37,4 +38,11 @@ a {
 }
 a:hover {
   color: brown;
+}
+.recipes {
+  text-align: center;
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
 }
