@@ -1,9 +1,17 @@
-#index_body {
-  background-color: rgb(235, 214, 189);
+* {
+  box-sizing: border-box;
 }
-h1 {
+#index_body {
+  background-color: rgb(245, 233, 218);
+}
+h1,
+h2,
+h3 {
   text-align: center;
   font-family: cursive, sans-serif;
+}
+div {
+  text-align: center;
 }
 .header {
   display: block;
@@ -12,12 +20,21 @@ h1 {
   border-top: 1px solid rgb(9, 9, 9);
 }
 
-
-#chicken_salad {
+#chicken_salad,
+#salmon_pic,
+#chili_pic,
+#lemon_cake {
   display: block;
   width: 50%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   border: solid 3px;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: brown;
 }
