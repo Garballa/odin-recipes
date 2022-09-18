@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -9,36 +8,36 @@
 #salmon_body,
 #chili_body {
   background: url("recipes/images/recipe-background.jpg");
-  img
 }
-.paper{
+.paper {
   border-radius: 10px;
-  padding:10px;
-  background: url("recipes/images/recipe-paper.jpg");
-  filter: sepia(20%);
- 
-  
+  margin: 20px;
+  padding: 10px;
+  background: url("recipes/images/recipe-paper-2.jpg");
+  box-shadow: 10px 10px 5px #ccc;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 48px;
   margin: 0;
   text-shadow: 2px 2px gray;
 }
-h2,h3{  text-align: center;
-  font-family: 'Pacifico', cursive;
+h2,
+h3 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
   font-size: 28px;
   margin: 0;
   text-shadow: 2px 2px #ccc;
-
 }
-p{
-  font-family: 'Handlee', cursive;
-  font-size: x-large;
+p {
+  font-family: "Handlee", cursive;
   margin: 20px;
   padding: 10px;
+  font-size: 24px;
+  text-align: center;
 }
 div {
   text-align: center;
@@ -53,8 +52,7 @@ div {
 #recipes,
 #salmon_pic,
 #chili_pic,
-#lemon_cake
- {
+#lemon_cake {
   display: block;
   width: 50%;
   height: auto;
@@ -62,9 +60,9 @@ div {
   margin-right: auto;
   width: 400px;
   height: 400px;
-  border:2px solid #fff;
+  border: 2px solid #fff;
   box-shadow: 10px 10px 5px #ccc;
-  border-radius:25px;
+  border-radius: 25px;
 
   border-radius: 10%;
 }
@@ -73,24 +71,26 @@ a {
   color: black;
 }
 a:hover {
-color: darkgoldenrod;
+  color: darkgoldenrod;
 }
 .recipes {
   text-align: center;
 }
-ul,ol {
+ul,
+ol {
   text-align: center;
   list-style-position: inside;
   font-size: 18px;
-  font-family: 'Handlee', cursive;
+  font-family: "Handlee", cursive;
   font-weight: bolder;
-
 }
-li{
-  margin:10px;
+li {
+  margin: 10px;
   font-weight: bolder;
   font-size: 20px;
 }
-img{
- 
+.footer {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 18px;
 }
