@@ -20,7 +20,7 @@ div {
   border-top: 1px solid rgb(9, 9, 9);
 }
 
-#chicken_salad,
+#recipes,
 #salmon_pic,
 #chili_pic,
 #lemon_cake {
@@ -30,7 +30,7 @@ div {
   margin-left: auto;
   margin-right: auto;
   border: solid 3px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 a {
