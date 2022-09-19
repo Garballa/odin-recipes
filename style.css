@@ -42,12 +42,6 @@ p {
 div {
   text-align: center;
 }
-.horizontal {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid rgb(9, 9, 9);
-}
 
 #recipes,
 #salmon-pic,
